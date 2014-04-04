@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBF00" >
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llAppName"
+        android:layout_centerInParent="true" >
+
+        <TextView
+            android:id="@+id/tvV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/splash_app_name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textColor="#9F81F7"
+            android:textSize="@dimen/splash_app_name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvVote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VOTE"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/splash_app_name"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

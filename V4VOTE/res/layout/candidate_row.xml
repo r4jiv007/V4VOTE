@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_edge_pm_border" >
+    
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvCandidateName"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="70dp"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rounded_edge_pm_entry"
+            android:paddingLeft="70dp"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/ivCandidateImage"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/narendra" />
+    </RelativeLayout>
+
+  
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#FF8000" />
+    
+
+</LinearLayout>
